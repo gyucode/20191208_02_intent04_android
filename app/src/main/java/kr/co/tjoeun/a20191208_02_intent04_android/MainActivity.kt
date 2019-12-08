@@ -20,5 +20,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        callBtn.setOnClickListener {
+            val uri = Uri.parse("tel:01012345678")
+            val intent = Intent(Intent.ACTION_CALL, uri)
+            startActivity(intent)
+        }
+
+
     }
 }

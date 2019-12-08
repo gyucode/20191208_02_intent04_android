@@ -12,6 +12,12 @@
         android:id="@+id/dialBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="전화 걸기 직전(010-xxxx-xxxx)"/>
+        android:text="전화 걸기 직전(010-1234-5678)"/>
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="실제 전화 걸기(010-1234-5678)"/>
 
 </LinearLayout>
