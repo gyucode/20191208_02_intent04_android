@@ -45,4 +45,10 @@
         android:layout_height="wrap_content"
         android:text="카카오톡 다운로드"/>
 
+    <Button
+        android:id="@+id/googleMapBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더조은 학원을 구글 맵으로"/>
+
 </LinearLayout>

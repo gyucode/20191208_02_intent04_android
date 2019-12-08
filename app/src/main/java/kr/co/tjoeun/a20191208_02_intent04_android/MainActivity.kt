@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -46,5 +47,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        googleMapBtn.setOnClickListener {
+            val uri = Uri.parse("geo:37.569326, 126.989246")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
     }
 }
